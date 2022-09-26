@@ -26,6 +26,7 @@ public class Course {
     }
 
 
+    // "uses a" ilişkisi, eğer bir sınıfın metotlarından en az biri başka bir sınıfa ait bir parametre alıyorsa, parametre alan metoda ait sınıf diğeri sınıfa bağımlıdır ya da onu kullanır (uses) denir.
     public double calcAvg(Student[] students){
         double avr = 0.0;
         for(int i = 0 ; i < students.length;i++){
