@@ -25,4 +25,9 @@ public class Academician extends Employee {
     public void setTitle(String title){
         this.title = title;
     }
+
+    @Override
+    public void login(){
+        System.out.println(this.getNameSname() + " academician entered through door A" );
+    }
 }

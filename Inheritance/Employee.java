@@ -35,4 +35,17 @@ public class Employee {
         
     }
 
+    public void login(){
+        System.out.println(this.getNameSname() + " logged in");
+    }
+
+
+    //giriş yapanlar
+    public static void entrants(Employee[] arr){
+        for(Employee e : arr){
+            e.login();
+        }
+
+    }
+
 }
