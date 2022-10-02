@@ -1,7 +1,4 @@
 package Darray;
-
-
-
 public class ArrayL<T> {
    
     private T[] arr;  // arr is the array which stores my ArrayL elements
@@ -69,8 +66,5 @@ public class ArrayL<T> {
         }
         System.out.println();
     }
-
-
-
 
 }

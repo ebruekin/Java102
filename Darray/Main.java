@@ -23,9 +23,7 @@ public class Main {
         System.out.println("ArrayList elements: ");
         v.print();
 
-        System.out.println("Element at 1st index: " + v.get(1));
-
-        
+        System.out.println("Element at 1st index: " + v.get(1));        
 
   
         System.out.println("ArrayList size: " + v.size());
